@@ -1,0 +1,32 @@
+Package: TimeSeriesStuffforClaire
+Type: Package
+Title: X
+Version: 1.0 
+Date: 2017-09-14
+Author: D. Bonnery
+Maintainer: D. Bonnery  <dbonnery@umd.edu>
+Imports: ggplot2,
+	abind,
+	optimx,
+	Matrix,
+	Hmisc,
+	MASS,
+	filehash,
+	plyr
+Suggests: 
+Description: Data
+Remotes: DanielBonnery/CompositeRegressionEstimation,
+	DanielBonnery/TensorDB
+Depends: ggplot2,
+	abind,
+	optimx,
+	Matrix,
+	Hmisc,
+	MASS,
+	filehash,
+	plyr,
+	CompositeRegressionEstimation,
+	TensorDB
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: true
