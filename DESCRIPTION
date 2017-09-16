@@ -16,8 +16,6 @@ Imports: tseries,
 	plyr
 Suggests: 
 Description: Data
-Remotes: DanielBonnery/CompositeRegressionEstimation,
-	DanielBonnery/TensorDB
 Depends: ggplot2,
 	abind,
 	optimx,
