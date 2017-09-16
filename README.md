@@ -15,16 +15,5 @@ library("TimeSeriesStuffforClaire")
 demo("ComputeStats")
 ```
 
-```
-FALSE 
-FALSE Attaching package: 'TimeSeriesStuffforClaire'
-```
-
-```
-FALSE The following object is masked _by_ '.GlobalEnv':
-FALSE 
-FALSE     signals
-```
-
 ![plot of chunk r2](figure/r2-1.png)
 
