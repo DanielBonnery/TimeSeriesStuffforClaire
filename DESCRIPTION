@@ -5,7 +5,8 @@ Version: 1.0
 Date: 2017-09-16
 Author: D. Bonnery
 Maintainer: D. Bonnery  <dbonnery@umd.edu>
-Imports: ggplot2,
+Imports: tseries,
+	ggplot2,
 	abind,
 	optimx,
 	Matrix,
@@ -24,9 +25,7 @@ Depends: ggplot2,
 	Hmisc,
 	MASS,
 	filehash,
-	plyr,
-	CompositeRegressionEstimation,
-	TensorDB
+	plyr
 License: GPL (>= 2)
 LazyLoad: yes
 LazyData: true
