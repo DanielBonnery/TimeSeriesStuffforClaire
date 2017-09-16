@@ -11,11 +11,11 @@ plyr::ddply(signals[signals$run==1,],
             ~larve,
             function(dd){sum(dd$light1)})
 
-signals<-signals[is.element(signals$larve,c(1:3,5:7)),]
+signals<-signals[is.element(signals$larve,c(9:16)),]
 signals$csplus1<-signals$csplus1*(1-signals$light1)
 signals$csplus2<-signals$csplus2*(1-signals$light2)
 exclude=(signals$test!=2)|(signals$run==1&signals$larve==2)|(signals$run==4&signals$larve==11)
-Order<-c(0,15,1)
+Order<-c(0,2,1)
 coeffsy1<-plyr::ddply(signals,
                     ~larve+run,
                     function(dd){
